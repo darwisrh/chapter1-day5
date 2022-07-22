@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans&family=Mukta:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Rubik&family=Tiro+Gurmukhi&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="icon" href="assets/icons/favicon.ico">
+        <title>Contact Me</title>
+    </head>
+
+    <body>
+        
+<!-- NAVIGATION BAR -->
+        <nav>
+            <div class="nav-left">
+                <div class="image">
+                    <img src="assets/icons/logo.png" alt="logo">
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="project.html">My Project</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+
+<!-- CONTACT FORM -->
+        <div>
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Input your name here....">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Input your email here....">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Input your phone number here....">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Visual Basic">Visual Basic</option>
+                        <option value="Java">Java</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Swift">Swift</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Input your message here...."></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="button" onclick="getData()">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+    <script src="assets/js/contact.js"></script>
+</html>

@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* NAVIGATION GROUP */
+nav {
+    height: 8vh;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+nav .nav-left {
+    display: flex;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-left ul li {
+    display: inline;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 50%;
+}
+
+.nav-right a {
+    margin-right: 65px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px black;
+}
+
+/* MAIN PROJECT */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.card {
+    background-color: rgb(245, 245, 245);
+    width: 1100px;
+    padding: 60px;
+    display: flex;
+    box-shadow: 0px 10px 10px rgb(143, 143, 143);
+    border-radius: 5px;
+}
+
+/* card group */
+/* left card */
+.left-card {
+    margin-right: 85px;
+}
+
+.left-card p {
+    text-align: justify;
+}
+
+.buttons {
+    margin-top: 45px;
+    margin-bottom: 60px
+}
+
+.buttons .contact {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px 25px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px
+}
+
+.buttons .contact:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid black;
+}
+
+.buttons img {
+    margin-bottom: -5px;
+    width: 25px;
+}
+
+.icons img {
+    width: 45px;
+    margin-right: 30px;
+}
+
+.icons img:hover {
+    background-color: white;
+}
+
+/* right card */
+.right-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgb(190, 190, 190);
+}
+
+.head-card img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.body-card h3 {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.body-card p {
+    margin-top: 0px;
+    text-align: center;
+}
